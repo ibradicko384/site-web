@@ -1,0 +1,155 @@
+.p1{
+    font-size:150px;
+    padding: 0px;
+    margin-top: 150px;
+}
+.a1{
+    background-color: rgb(224, 218, 218);
+}
+.p2{
+    margin-bottom: 70px;
+    color: blue;
+}
+.d1{
+    margin-top: 20px;
+}
+.d22
+{margin-left: 0px; 
+}
+.c22{
+    font-family: bold;
+}
+.g11{
+    margin-left: 200px;
+    margin-right: 800px;
+    
+}
+.div{
+    padding-bottom: 400px;
+}
+
+.f11{
+    margin-right: 100px;
+    margin-left: 800px;
+}
+.e11{
+    padding-bottom: 20px;
+    margin-right: 300px;
+    text-align:left;
+}
+.d11{
+    padding-bottom: 300px;
+}
+.f10{
+    padding-left: 400px;
+    font-size: 60px;
+    margin-bottom: 300px;
+}
+.f1{
+    float: left;
+    display: block;
+}
+.f111{
+    text-align: center;
+    margin-left: auto;
+    font-size: 80px;
+}
+.f222{
+    text-align: justify;
+	font-size: 18px;
+	padding-left: 50px;
+    width: 80%;
+}
+.f444{
+
+}
+.f555{
+    color: white;
+  background: #1608dd;
+  font-size: 1.6em;
+  font-family: sans-serif;
+  padding: 20px;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: lowercase;
+  border-radius: 5px;
+  font-weight: 200;
+}
+
+
+.container {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section1 {
+    width: 700px;
+}
+
+.sectionTitle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sectionTitle .heading1{
+    width: 100%;
+    display: flex;
+text-align: end;
+color: blue;
+    font-size: 100px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.sectionTitle .btn {
+    border: 0px blue solid;
+padding: 25px 100px;
+background-color: blue;
+color: white;
+font-size: 25px;
+box-shadow: 3px 3px 8px rgba(0, 0, 255, 0.575)
+}
+
+.sectionBody {
+    display: flex;
+    justify-content: end;
+    text-align: justify;
+    padding-top: 30px;
+}
+.sectionBody p {
+    width: 500px;
+}
+
+.section2 {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.section2 .paragraph {
+    display: flex;
+    width: 400px;
+    text-align: justify;
+    justify-self: center;
+    margin-right: 50px;
+}
+.section3
+{width: 1310px;
+	background-color: rgb(182, 182, 182);
+}
+.p8
+{
+	font-size: 70px;
+	color: blue;
+	padding-left: 150px;
+	width: 90%;
+}
+.auteur
+{
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 70px;
+}
