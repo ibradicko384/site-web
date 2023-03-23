@@ -1,23 +1,77 @@
 .p1{
-    font-size:150px;
+    font-size: 170px;
     padding: 0px;
-    margin-top: 150px;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(252, 250, 250);
+    margin-left: 50px;
+}
+.body{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.pp{
+    width: 800px;
+    font-size: 30px;
+    margin-left: 48px;
+}
+.pp2{
+    width: 800px;
+    position: relative;
+    right: 450px;
+    margin-left: 500px;
+
+}
+.color{
+    width: 400px;
 }
 .a1{
-    background-color: rgb(224, 218, 218);
+    background-color: rgb(206, 205, 205);
+    width: 100%;
 }
 .p2{
     margin-bottom: 70px;
     color: blue;
 }
-.d1{
-    margin-top: 20px;
+.d9{
+    display: inline-flex;
+    justify-content:left;
+    width: 300px;
+    margin-top: -50px;
+    text-align: justify;
+    background-color: rgb(179, 174, 174); width: 700px;
+}
+.bleu{
+    background-color: blue; width: 150px; height: 200px;
+    margin-left: 410px;
+    margin-bottom: 30px;
+}
+.para{
+    justify-content: end;
+    text-align: justify;
+    background-color: rgb(190, 187, 187); width: 800px; height: 550px;
+
+}
+.para2{
+    justify-content: end;
+    text-align: justify;
+
+}
+.imcol{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.imgg{
+    margin-left: 800px;
+    position: relative;
+    bottom: 650px;
+}
+.b111{
+    position: relative;
+    padding-right: 900px;
 }
 .d22
 {margin-left: 0px; 
-}
-.c22{
-    font-family: bold;
 }
 .g11{
     margin-left: 200px;
@@ -25,7 +79,7 @@
     
 }
 .div{
-    padding-bottom: 400px;
+    padding-bottom: 400px; 
 }
 
 .f11{
@@ -34,16 +88,33 @@
 }
 .e11{
     padding-bottom: 20px;
-    margin-right: 300px;
-    text-align:left;
+    position: relative;
+    top: 70px;
+	font-size : 15px;
+    padding-top: 200px;
+    width: 350px;
+    padding-left: 30px;
+    
 }
-.d11{
-    padding-bottom: 300px;
+.e1{
+    margin-left: 750px;
+    font-size: 30px;
+    margin-left: 1050px;
+    position: relative;
+    bottom: 500px;
+}
+.d112{
+    background-color: rgb(150, 144, 144);
+} 
+.d115{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 300px;
 }
 .f10{
     padding-left: 400px;
     font-size: 60px;
-    margin-bottom: 300px;
 }
 .f1{
     float: left;
@@ -59,9 +130,6 @@
 	font-size: 18px;
 	padding-left: 50px;
     width: 80%;
-}
-.f444{
-
 }
 .f555{
     color: white;
@@ -81,9 +149,15 @@
 .container {
     display: inline-flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
+    position: relative;
+    bottom: 350px;
 }
-
+.btn{
+    margin-left: 180px;
+    position: relative;
+    bottom: 70px;
+}
 .section1 {
     width: 700px;
 }
@@ -96,11 +170,11 @@
 .sectionTitle .heading1{
     width: 100%;
     display: flex;
-text-align: end;
+text-align: center;
 color: blue;
     font-size: 100px;
-    margin-left: 30px;
-    font-weight: 600;
+    margin-left: 150px;
+    font-weight: 600 px;
 }
 .sectionTitle .btn {
     border: 0px blue solid;
@@ -112,15 +186,21 @@ box-shadow: 3px 3px 8px rgba(0, 0, 255, 0.575)
 }
 
 .sectionBody {
-    display: flex;
-    justify-content: end;
     text-align: justify;
     padding-top: 30px;
+    height:250px ;
+    position: relative;
+    top: 180px;
 }
 .sectionBody p {
     width: 500px;
 }
 
+.paragraph{
+    position: relative;
+    top: 150px;
+    margin-left: 50px;
+}
 .section2 {
     width: 600px;
     display: flex;
@@ -137,15 +217,15 @@ box-shadow: 3px 3px 8px rgba(0, 0, 255, 0.575)
     margin-right: 50px;
 }
 .section3
-{width: 1310px;
+{width: 1300px;
 	background-color: rgb(182, 182, 182);
 }
 .p8
 {
 	font-size: 70px;
 	color: blue;
-	padding-left: 150px;
-	width: 90%;
+	padding-left: 100px;
+	width: 1200px;
 }
 .auteur
 {
@@ -153,3 +233,191 @@ box-shadow: 3px 3px 8px rgba(0, 0, 255, 0.575)
 	font-size: 20px;
 	padding-bottom: 70px;
 }
+.photo{
+    margin-left: 400px;
+}
+.meet
+{
+	text-align: center;
+	color: blue;
+	font-size: 100px;
+    font-family: arial;
+    margin-left: 50px;
+}
+.meet1{
+    width: 250px; height: 250px;
+    border-radius: 250px;
+    margin-left: 35px;
+}
+.meet2{
+    width: 250px; height: 250px;
+    border-radius: 250px;
+    margin-left: 600px;
+    padding-left: 500px;
+}
+.der{
+    width: 250px; height: 250px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.pp11{
+    margin-left: 800px;
+}
+.pp22{
+    margin-left: 800px;
+
+}
+.name{
+    font-size: 40px;
+}
+
+.section5
+{
+	background-color: rgb(207, 204, 204);
+}
+.h12
+{
+	color: white;
+	font-size: 220px;
+	padding-left: 80px;
+}
+.line1
+{
+	padding-left: 100px;
+	font-size: 30px;
+	font-family: georgian;
+    color: rgb(62, 62, 62);
+    position: relative;
+    bottom: 200px;
+}
+.line2
+{
+	padding-left: 100px;
+	font-size: 40px;
+    color: blue;
+    position: relative;
+    bottom: 200px;
+}
+.flex{
+    position: relative;
+    bottom:10px;   
+}
+.trait{
+    position: relative;
+    bottom: 100px;
+    margin-left: 65px;
+}
+.q1
+{
+	text-align: center;
+	text-align: justify;
+	font-size: 25px;
+    width: 200%;
+    padding-left: 100px;
+    font-family: Times New Roman;
+}
+.q2
+{
+	text-align: right;
+	text-align: justify;
+	font-size: 25px;
+    width: 200%;
+    font-family: Times New Roman;
+    margin-left: 650px;
+    position: relative;
+    bottom: 310px;
+}
+
+.bouton2
+{
+	border: 0px blue solid;
+	background-color: blue;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.bfg
+{
+	color: blue;
+	font-size: 90px;
+    padding-left: 100px;
+}
+.lieu{
+    font-size:35px ;
+    color: blue;
+}
+.section6
+{
+	border: 0px black solid;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.degrade-horizontal {
+  background: linear-gradient(to right, blue, pink);
+}
+
+div 
+{
+  width: 200px;
+  height: 250px;
+  padding-bottom: 100px;
+  position: top;
+  align-self: start;
+}
+.bfg{
+    position: relative;
+    bottom: 200px;
+}
+.bag{
+    background-color: rgb(179, 174, 174);
+}
+.man{
+    width: 200px;
+}
+
+.rencontre
+{
+	text-align: center;
+	color: blue;
+	font-size: 100px;
+	font-family: arial;
+}
+.imgprf2
+{
+	padding-left: 400px;
+    border-radius: 50%;
+}
+.prf1, #logo1
+{
+	padding-left: 150px;
+}
+.prf2, #logo2
+{
+    padding-left: 500px;
+}
+.name
+{
+	font-size: 40px;
+}
+.section5
+{
+	background-color: rgb(182, 182, 182);
+}
+.h12
+{
+	color: white;
+	font-size: 220px;
+	padding-left: 80px;
+}
+.i1{
+    border-radius: 50%;
+    margin-left: 45px;
+}
+.i2{
+    border-radius: 50%;
+}
+
